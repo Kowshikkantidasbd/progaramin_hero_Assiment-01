@@ -267,7 +267,8 @@ div nav ul li a:hover {
 }
 
 .price-btn:hover {
-  background-color: #7c9dff;
+  background-color: #20e060;
+  color: #ffffff;
 }
 
 .price-btn-solid {
@@ -297,6 +298,7 @@ div nav ul li a:hover {
 #footer-h1{
   flex: 1;
   margin-left: 50px;
+  text-align: center;
 
 }
 #footer-h2{
@@ -312,3 +314,241 @@ div nav ul li a:hover {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #ffffff; }
+
+  .build-track {
+    background: #ffffff;
+    padding: 100px 24px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .build-track__inner {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  .build-track__eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #2952e3;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 14px;
+  }
+
+  .build-track__heading {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #0f172a;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .build-track__heading em {
+    font-style: italic;
+    color: #2952e3;
+  }
+
+  .build-track__sub {
+    font-size: 16px;
+    color: #64748b;
+    text-align: center;
+    max-width: 520px;
+    margin: 0 auto 56px;
+    line-height: 1.6;
+  }
+
+  .build-track__grid {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 40px;
+    align-items: center;
+  }
+
+  /* --- Signature element: git log terminal --- */
+  .terminal {
+    background: #0f1b2e;
+    border: 1px solid #0f1b2e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(15, 27, 46, 0.18);
+  }
+
+  .terminal__bar {
+    background: #16263d;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #223a5a;
+  }
+
+  .terminal__dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #2c4a6e;
+  }
+
+  .terminal__title {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: #7d97b8;
+    margin-left: 8px;
+  }
+
+  .terminal__body {
+    padding: 22px 20px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13.5px;
+    line-height: 2;
+  }
+
+  .terminal__prompt {
+    color: #5f7fa3;
+  }
+
+  .terminal__cmd {
+    color: #eef3f9;
+  }
+
+  .commit-log {
+    margin-top: 14px;
+  }
+
+  .commit-row {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    padding: 6px 0;
+    border-left: 2px solid #223a5a;
+    padding-left: 16px;
+    margin-left: 4px;
+    position: relative;
+  }
+
+  .commit-row::before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: 14px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #2952e3;
+  }
+
+  .commit-hash {
+    color: #5b9fd8;
+    flex-shrink: 0;
+  }
+
+  .commit-msg {
+    color: #d3e0ee;
+  }
+
+  .commit-tag {
+    color: #5f7fa3;
+  }
+
+  
+  .tracks {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .track-card {
+    background: #e2d9f7;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 16px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: border-color 0.2s ease;
+    cursor: pointer;
+    
+    
+
+  }
+
+
+  .track-card:hover {
+    border-color: #387df4;
+    
+
+  }
+
+  .track-card__name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #0f172a;
+  }
+
+  .track-card__prize {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: #2952e3;
+  }
+
+  .build-track__cta {
+    text-align: center;
+    margin-top: 48px;
+  }
+
+
+  
+
+  .btn-primary:hover{
+    background-color: #2d077f;
+    color: rgb(213, 226, 240);
+  }
+  .Reserve{
+    text-align: center;
+
+  }
+
+  .btn-primary {
+    display: inline-block;
+    background: #2952e3;
+    color: #ffffff;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 14px 32px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .build-track__cta-note {
+    margin-top: 12px;
+    font-size: 13px;
+    color: #94a3b8;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  @media (max-width: 720px) {
+    .build-track__grid { grid-template-columns: 1fr; }
+    .build-track__heading { font-size: 30px; }
+  }
